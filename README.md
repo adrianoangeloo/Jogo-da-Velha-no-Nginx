@@ -100,7 +100,6 @@ http://localhost:8080
 | mkdir: Permission denied | /var/www pertence ao root | usar sudo |
 | No such file or directory | faltou a barra no comeco do caminho | usar o caminho completo, comecando com / |
 | directive "root" is not terminated by ";" | faltou o ponto e virgula no fim da linha | adicionar o ; |
-| unknown directive "try_fyles" | erro de digitacao | corrigir para try_files |
 | Firefox nao conectava com o Nginx rodando | cache da pagina de erro | recarregar com Ctrl+Shift+R |
 
 ## Creditos
