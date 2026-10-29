@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Jogo da Velha</h1>
+
+    <!-- Mostra de quem é a vez / quem ganhou -->
+    <p id="status">Vez do X</p>
+
+    <!-- Tabuleiro: 9 botões, um pra cada casa -->
+    <div id="board">
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+    </div>
+
+    <button id="reset">Reiniciar</button>
+  </main>
+
+  <!-- O script vem por último pra HTML já estar carregado quando ele rodar -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+/* Visual geral da página */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111827;
+  color: #f9fafb;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  text-align: center;
+}
+
+#status {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+/* Tabuleiro 3x3 usando CSS Grid */
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cell {
+  background: #1f2937;
+  border: 2px solid #374151;
+  border-radius: 8px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f9fafb;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.cell:hover {
+  background: #374151;
+}
+
+/* Cores de cada jogador */
+.cell.x { color: #38bdf8; }
+.cell.o { color: #fb7185; }
+
+/* Casas da linha vencedora */
+.cell.win {
+  background: #166534;
+  border-color: #22c55e;
+}
+
+#reset {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #22c55e;
+  color: #052e16;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background: #4ade80;
+}
