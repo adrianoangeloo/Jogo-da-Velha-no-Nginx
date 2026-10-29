@@ -2,8 +2,6 @@
 
 Jogo da Velha em HTML, CSS e JavaScript, servido por Nginx no Linux Ubuntu (VirtualBox) e acessado pelo navegador do computador.
 
-![Jogo da Velha rodando](docs/jogo.gif)
-
 ## Tecnologias
 
 HTML, CSS, JavaScript, Nginx, Ubuntu Linux e VirtualBox.
