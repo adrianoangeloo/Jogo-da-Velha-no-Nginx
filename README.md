@@ -10,9 +10,11 @@ HTML, CSS, JavaScript, Nginx, Ubuntu Linux e VirtualBox.
 
 ## Arquivos
 
-index.html: estrutura da pagina e do tabuleiro
-style.css: visual do jogo
+<p>
+index.html: estrutura da pagina e do tabuleiro <br>
+style.css: visual do jogo <br>
 script.js: logica do jogo (vez, vitoria e empate)
+</p>
 
 ## Como rodar
 
