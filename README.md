@@ -1,6 +1,7 @@
 # Jogo da Velha no Nginx
 
 Jogo da Velha em HTML, CSS e JavaScript, servido por Nginx no Linux Ubuntu (VirtualBox) e acessado pelo navegador do computador.
+
 <img width="390" height="299" alt="Captura de tela 2026-11-03 153539" src="https://github.com/user-attachments/assets/b08e4cbc-c260-4f02-ac8e-8a49a9de1dd6" />
 
 ## Tecnologias
